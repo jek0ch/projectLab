@@ -100,6 +100,7 @@ while($row = mysqli_fetch_assoc($result2)){
 }
 
 echo "<br>";
+echo "<br>";
 $query = "SELECT max(birthdate) as birthdate, d.director_full_name as name from director d" ;
 $result3 = mysqli_query($connection, $query);
 while($row = mysqli_fetch_assoc($result3)){
